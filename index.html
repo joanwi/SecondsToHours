@@ -1,144 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Convert seconds to hours easily with our free online calculator. Get results in both decimal hours and HH:MM:SS format. Includes common conversion table.">
-    <meta name="keywords" content="seconds to hours, time converter, seconds converter, time calculation">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Convert seconds to hours easily with our free online calculator. Get results in both decimal hours and HH:MM:SS format. Includes common conversion table." />
+    <meta
+      name="keywords"
+      content="seconds to hours, time converter, seconds converter, time calculation" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <title>Seconds to Hours Converter | Real-time Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <h1>Seconds to Hours Converter</h1>
-        <p>With this user-friendly web application, you can effortlessly convert seconds to hours. Simply enter the seconds in the input field, and it will provide two formatted outputs: the total hours (hrs) and a human-readable time format (hrs:min:sec).</p>
-        <div class="social-share">
-            <div class="share-btn-container">
-                <a href="#" class="share-btn facebook"><i class="fab fa-facebook-f"></i></a>
-                <span class="tooltip">Facebook</span>
-            </div>
-            <div class="share-btn-container">
-                <a href="#" class="share-btn twitter"><i class="fab fa-twitter"></i></a>
-                <span class="tooltip">Twitter</span>
-            </div>
-            <div class="share-btn-container">
-                <a href="#" class="share-btn reddit"><i class="fab fa-reddit-alien"></i></a>
-                <span class="tooltip">Reddit</span>
-            </div>
-            <div class="share-btn-container">
-                <a href="#" class="share-btn instagram"><i class="fab fa-instagram"></i></a>
-                <span class="tooltip">Instagram</span>
-            </div>
-            <div class="share-btn-container">
-                <a href="#" class="share-btn pinterest"><i class="fab fa-pinterest-p"></i></a>
-                <span class="tooltip">Pinterest</span>
-            </div>
+      <h1>Seconds to Hours Converter</h1>
+      <p>
+        With this user-friendly web application, you can effortlessly convert
+        seconds to hours. Simply enter the seconds in the input field, and it
+        will provide two formatted outputs: the total hours (hrs) and a
+        human-readable time format (hrs:min:sec).
+      </p>
+      <div class="social-share">
+        <div class="share-btn-container">
+          <a href="#" class="share-btn facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <span class="tooltip">Facebook</span>
         </div>
+        <div class="share-btn-container">
+          <a href="#" class="share-btn twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <span class="tooltip">Twitter</span>
+        </div>
+        <div class="share-btn-container">
+          <a href="#" class="share-btn reddit"
+            ><i class="fab fa-reddit-alien"></i
+          ></a>
+          <span class="tooltip">Reddit</span>
+        </div>
+        <div class="share-btn-container">
+          <a href="#" class="share-btn instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <span class="tooltip">Instagram</span>
+        </div>
+        <div class="share-btn-container">
+          <a href="#" class="share-btn pinterest"
+            ><i class="fab fa-pinterest-p"></i
+          ></a>
+          <span class="tooltip">Pinterest</span>
+        </div>
+      </div>
     </header>
 
     <main>
-        <section class="converter">
-            <div class="input-group">
-                <label for="seconds">Enter Seconds:</label>
-                <input type="number" id="seconds" placeholder="Enter seconds..." min="0">
-            </div>
+      <section class="converter">
+        <div class="input-group">
+          <label for="seconds">Enter Seconds:</label>
+          <input
+            type="number"
+            id="seconds"
+            placeholder="Enter seconds..."
+            min="0" />
+        </div>
 
-            <div class="results">
-                <div class="result-card">
-                    <h2>Hours</h2>
-                    <p id="decimal-result">00 hrs</p>
-                </div>
-                <div class="result-card">
-                    <h2>Time</h2>
-                    <p id="time-result">00 hrs 00 min 00 sec</p>
-                </div>
-            </div>
-        </section>
+        <div class="results">
+          <div class="result-card">
+            <h2>Hours</h2>
+            <p id="decimal-result">00 hrs</p>
+          </div>
+          <div class="result-card">
+            <h2>Time</h2>
+            <p id="time-result">00 hrs 00 min 00 sec</p>
+          </div>
+        </div>
+      </section>
 
-        <section class="intro-content">
-            <div class="content-block">
-                <h2>Understanding Time Conversion</h2>
-                <p>Converting seconds to hours is essential in many fields, from science and engineering to everyday life. One hour equals 3,600 seconds, making it simple to convert between these units using our calculator above.</p>
-                <div class="formula-box">
-                    <h3>Conversion Formula</h3>
-                    <p class="formula">Hours = Seconds ÷ 3,600</p>
-                    <p>For example: 7,200 seconds = 7,200 ÷ 3,600 = 2 hours</p>
-                </div>
-            </div>
-            <div class="image-block">
-                <img src="https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=500&auto=format" alt="Vintage clock showing time conversion concept" class="featured-image">
-            </div>
-        </section>
+      <section class="intro-content">
+        <div class="content-block">
+          <h2>Understanding Time Conversion</h2>
+          <p>
+            Converting seconds to hours is essential in many fields, from
+            science and engineering to everyday life. One hour equals 3,600
+            seconds, making it simple to convert between these units using our
+            calculator above.
+          </p>
+          <div class="formula-box">
+            <h3>Conversion Formula</h3>
+            <p class="formula">Hours = Seconds ÷ 3,600</p>
+            <p>For example: 7,200 seconds = 7,200 ÷ 3,600 = 2 hours</p>
+          </div>
+        </div>
+        <div class="image-block">
+          <img
+            src="https://images.unsplash.com/photo-1495364141860-b0d03eccd065?w=500&auto=format"
+            alt="Vintage clock showing time conversion concept"
+            class="featured-image" />
+        </div>
+      </section>
 
-        <section class="quick-tips">
-            <h2>Quick Tips for Time Conversion</h2>
-            <ul class="tips-list">
-                <li><strong>Half an hour</strong> = 1,800 seconds</li>
-                <li><strong>Quarter hour</strong> = 900 seconds</li>
-                <li><strong>One day</strong> = 86,400 seconds</li>
-                <li><strong>One week</strong> = 604,800 seconds</li>
-            </ul>
-        </section>
+      <section class="quick-tips">
+        <h2>Quick Tips for Time Conversion</h2>
+        <ul class="tips-list">
+          <li><strong>Half an hour</strong> = 1,800 seconds</li>
+          <li><strong>Quarter hour</strong> = 900 seconds</li>
+          <li><strong>One day</strong> = 86,400 seconds</li>
+          <li><strong>One week</strong> = 604,800 seconds</li>
+        </ul>
+      </section>
 
-        <section class="conversion-table">
-            <h2>Seconds to Hours Conversion Table</h2>
-            <div class="table-container">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Seconds</th>
-                            <th>Hours</th>
-                            <th>Time</th>
-                        </tr>
-                    </thead>
-                    <tbody id="conversion-table-body">
-                        <!-- Filled by JavaScript -->
-                    </tbody>
-                </table>
-            </div>
-        </section>
+      <section class="conversion-table">
+        <h2>Seconds to Hours Conversion Table</h2>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Seconds</th>
+                <th>Hours</th>
+                <th>Time</th>
+              </tr>
+            </thead>
+            <tbody id="conversion-table-body">
+              <!-- Filled by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-        <section class="usage-examples">
-            <h2>Common Applications</h2>
-            <div class="examples-grid">
-                <div class="example-card">
-                    <i class="fas fa-running"></i>
-                    <h3>Fitness & Sports</h3>
-                    <p>Track workout durations and performance times in various formats.</p>
-                </div>
-                <div class="example-card">
-                    <i class="fas fa-industry"></i>
-                    <h3>Industrial Processes</h3>
-                    <p>Monitor machine operation times and production cycles.</p>
-                </div>
-                <div class="example-card">
-                    <i class="fas fa-video"></i>
-                    <h3>Media Production</h3>
-                    <p>Calculate video and audio durations for precise editing.</p>
-                </div>
-            </div>
-        </section>
+      <section class="usage-examples">
+        <h2>Common Applications</h2>
+        <div class="examples-grid">
+          <div class="example-card">
+            <i class="fas fa-running"></i>
+            <h3>Fitness & Sports</h3>
+            <p>
+              Track workout durations and performance times in various formats.
+            </p>
+          </div>
+          <div class="example-card">
+            <i class="fas fa-industry"></i>
+            <h3>Industrial Processes</h3>
+            <p>Monitor machine operation times and production cycles.</p>
+          </div>
+          <div class="example-card">
+            <i class="fas fa-video"></i>
+            <h3>Media Production</h3>
+            <p>Calculate video and audio durations for precise editing.</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>About This Calculator</h3>
-                <p>Our seconds to hours converter provides instant, accurate conversions for any time-related calculations. Perfect for professionals, students, and anyone needing quick time conversions.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Related Conversions</h3>
-                <ul>
-                    <li>Minutes to Hours</li>
-                    <li>Hours to Days</li>
-                    <li>Seconds to Minutes</li>
-                    <li>Days to Hours</li>
-                </ul>
-            </div>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>About This Calculator</h3>
+          <p>
+            Our seconds to hours converter provides instant, accurate
+            conversions for any time-related calculations. Perfect for
+            professionals, students, and anyone needing quick time conversions.
+          </p>
         </div>
-        <p>© 2024 Seconds to Hours Converter. All rights reserved.</p>
+        <div class="footer-section">
+          <h3>Related Conversions</h3>
+          <ul>
+            <li>Minutes to Hours</li>
+            <li>Hours to Days</li>
+            <li>Seconds to Minutes</li>
+            <li>Days to Hours</li>
+          </ul>
+        </div>
+      </div>
+      <p>© 2024 Seconds to Hours Converter. All rights reserved.</p>
+    </footer>
+    <div style="display: none;">
+      <!-- Google tag (gtag.js) -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-GR5D6D6BSF"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
 
+        gtag("config", "G-GR5D6D6BSF");
+      </script>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
