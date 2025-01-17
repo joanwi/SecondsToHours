@@ -1,6 +1,22 @@
 // Initialize the conversion table when the page loads
 document.addEventListener('DOMContentLoaded', initializeConversionTable);
 
+// Add smooth scrolling for anchor links
+document.querySelectorAll('.nav-link').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+            targetElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
 // Initialize social share buttons
 function initializeSocialShare() {
     const shareButtons = document.querySelectorAll('.share-btn');
