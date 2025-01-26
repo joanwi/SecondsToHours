@@ -69,7 +69,7 @@ header p {
 }
 
 main {
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 2rem 5rem;
 }
@@ -326,7 +326,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto 2rem auto;
     text-align: left;
 }
